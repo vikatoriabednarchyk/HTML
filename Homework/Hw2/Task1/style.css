@@ -1,0 +1,32 @@
+body{
+    background-color: #dfdfdf;
+}
+.goods img{
+    width:150px;
+    height:200px;
+    object-fit: contain;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.goods{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 250px;
+    height: 300px;
+}
+.goods p{
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+    padding: 30px;
+}
