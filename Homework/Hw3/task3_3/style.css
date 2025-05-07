@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+section{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+
+}
+#top-section{
+    background-color: #CE7C6B;
+}
+#center-section{
+    background-color: #94EBE3;
+}
+#bottom-section{
+    background-color: #5DCC81;
+}
+a{
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+}
+p{
+    width: 80%;
+}
+
