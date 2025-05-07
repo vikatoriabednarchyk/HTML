@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.pink_section{
+    background-color: #FFC0C9;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    font-family: "Roboto Thin", sans-serif;
+}
+.black_section{
+    background-color: #272727;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #eae0e0;
+    text-align: center;
+    gap: 20px;
+    font-family: "Roboto Thin", sans-serif;
+}
+p{
+    width: 90%;
+}
