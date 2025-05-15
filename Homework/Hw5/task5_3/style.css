@@ -1,0 +1,83 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #fbdde3;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.left__side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.right__side{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+}
+.red__box{
+    background-color: red;
+    height: 40px;
+    width: 40px;
+    animation: red_box 2s linear infinite;
+}
+.yellow__box{
+    background-color: yellow;
+    height: 40px;
+    width: 40px;
+    animation: yellow_box 3s linear infinite;
+}
+.green__box{
+    background-color: green;
+    height: 40px;
+    width: 40px;
+    animation: green_box 3s linear infinite;
+}
+.blue__box{
+    background-color: blue;
+    height: 40px;
+    width: 40px;
+    animation: blue_box 2s linear infinite;
+}
+@keyframes red_box {
+    from {
+        transform: scale(1.1) rotate(0deg);
+    }
+    to{
+        transform: scale(-1.2) rotate(360deg);
+    }
+}
+@keyframes green_box {
+    from {
+        transform: scale(1.1) rotate(0deg);
+    }
+    to{
+        transform: scale(-1.2) rotate(360deg);
+    }
+}
+@keyframes yellow_box {
+    from {
+        transform: scale(1.1) rotate(0deg);
+    }
+    to{
+        transform: scale(-1.2) rotate(360deg);
+    }
+}
+@keyframes blue_box {
+    from {
+        transform: scale(1.1) rotate(0deg);
+    }
+    to{
+        transform: scale(-1.2) rotate(360deg);
+    }
+}
