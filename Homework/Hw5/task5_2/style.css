@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #fdc1c1;
+}
+img{
+    width: 60px;
+    height: 60px;
+}
+.firs__cogwheel{
+    animation: first 4s linear infinite;
+    margin-right: 3px;
+    margin-bottom: 30px;
+}
+.second__cogwheel{
+    animation: second 4s linear infinite;
+}
+@keyframes first {
+    from {
+        transform: rotate(-360deg)
+    }
+
+    to {
+        transform: rotate(360deg)
+    }
+}
+@keyframes second{
+    from{
+        transform: rotate(-360deg) }
+to{
+    transform: rotate(360deg)
+}
+}
