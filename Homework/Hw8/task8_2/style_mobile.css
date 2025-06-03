@@ -1,0 +1,12 @@
+@media screen and (max-width: 480px) {
+    section{
+        width: 343px;
+        gap: 32px;
+        flex-direction: column;
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+    .item{
+        width: 100%;
+    }
+}
