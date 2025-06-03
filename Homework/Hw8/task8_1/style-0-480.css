@@ -1,0 +1,10 @@
+@media screen and (max-width: 481px) {
+    section{
+        width: 100%;
+        gap: 40px;
+        padding: 32px 16px;
+    }
+    .item{
+        width: 100%;
+    }
+}
