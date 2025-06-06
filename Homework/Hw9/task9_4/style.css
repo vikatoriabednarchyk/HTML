@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+}
+.wrapper {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr 0.5fr 0.5fr 1fr 1fr;
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas:
+    'header header'
+    'section_one aside_one'
+    'section_two aside_one'
+    'section_two aside_two'
+    'section_three aside_two'
+    'footer footer'
+}
+header {
+    background: #8D8484;
+    color: #000;
+    font-family: Inter, sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    grid-area: header;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div section:nth-child(2) {
+    background: #776969;
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    grid-area: section_one;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div section:nth-child(3) {
+    background: #643030;
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    grid-area: section_two;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div section:nth-child(4) {
+    background: #441818;
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    grid-area: section_three;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div aside:nth-child(5) {
+    background: #937575;
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    grid-area: aside_one;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div aside:nth-child(6) {
+    background: #644C4C;
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    grid-area: aside_two;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer {
+    background: #BDBDBD;
+    color: #000;
+    font-family: Inter, sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    grid-area: footer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
